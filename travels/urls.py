@@ -28,5 +28,5 @@ urlpatterns = [
     path('api/', include("bookings.urls")),
     # Include all URLs defined in the "payments" app under the path 'api/payments/'
     # e.g., http://localhost:8000/api/payments/charge/
-    path('api/payments/', include('payments.urls')),
+    # path('api/payments/', include('payments.urls')),
 ]
