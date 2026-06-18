@@ -187,6 +187,8 @@ DEBUG = os.environ.get("DEBUG", "False") == "True"
 
 ALLOWED_HOSTS = ["*"]
 
+CSRF_TRUSTED_ORIGINS = [ "https://web-production-53944.up.railway.app", ]
+
 # APPLICATIONS
 INSTALLED_APPS = [
     'django.contrib.admin',
